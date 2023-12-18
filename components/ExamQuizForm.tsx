@@ -1,6 +1,6 @@
 import SelectionInput from "@azure-fundamentals/components/SelectionInput";
 import { Button } from "@azure-fundamentals/components/Button";
-import { FC } from "react";
+import React, { FC } from "react";
 import { useForm } from "react-hook-form";
 import { Question } from "@azure-fundamentals/components/types";
 

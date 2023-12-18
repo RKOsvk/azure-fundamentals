@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import QuizForm from "@azure-fundamentals/components/QuizForm";
 
-const questionQuery = gql`
+export const questionQuery = gql`
   query QuestionById($id: ID!) {
     questionById(id: $id) {
       question
@@ -16,7 +16,7 @@ const questionQuery = gql`
   }
 `;
 
-const questionsQuery = gql`
+export const questionsQuery = gql`
   query Questions {
     questions {
       count

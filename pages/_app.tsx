@@ -1,9 +1,10 @@
 import "@azure-fundamentals/styles/globals.css";
 import Script from "next/script";
-import type { AppProps } from "next/app";
 import { ApolloProvider } from "@apollo/client";
 import client from "@azure-fundamentals/src/graphql/apollo-client";
 import Layout from "@azure-fundamentals/components/layout";
+import React from "react";
+import {AppProps} from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_TRACKING_ID;

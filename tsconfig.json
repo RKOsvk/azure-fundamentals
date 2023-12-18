@@ -1,9 +1,23 @@
 {
   "compilerOptions": {
+    "types": [
+      "jest",
+      "node",
+      "@types/node",
+      "@types/jest",
+      "@types/testing-library__react",
+      "@types/testing-library__jest-dom",
+      "@types/testing-library__react-hooks"
+    ],
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es2018",
-    "lib": ["dom", "dom.iterable", "esnext", "esnext.asynciterable"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "esnext.asynciterable"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,9 +32,21 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@azure-fundamentals/*": ["./*"]
+      "@azure-fundamentals/*": [
+        "./*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

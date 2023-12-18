@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-type Time = {
+export type Time = {
   minutes: number;
   seconds: number;
 };

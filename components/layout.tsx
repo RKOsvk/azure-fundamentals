@@ -1,6 +1,7 @@
 import TopNav from "@azure-fundamentals/components/TopNav";
 import Head from "next/head";
 import Footer from "./Footer";
+import React from "react";
 
 type LayoutProps = {
   children: React.ReactNode;

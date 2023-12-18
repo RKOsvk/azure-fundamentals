@@ -1,6 +1,6 @@
 import Link, { LinkProps } from "next/link";
 import clsx from "clsx";
-import { AnchorHTMLAttributes } from "react";
+import React, { AnchorHTMLAttributes } from "react";
 
 interface ExamLinkProps
   extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href">,

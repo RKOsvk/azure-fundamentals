@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import ExamLink from "@azure-fundamentals/components/ExamLink";
+import React from "react";
 
 const Home: NextPage = () => {
   return (
